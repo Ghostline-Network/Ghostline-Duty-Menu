@@ -6,12 +6,12 @@ lua54 'yes'
 shared_script '@ox_lib/init.lua'
 
 client_scripts {
-    'config.lua',  -- Load config.lua first
+    'config.lua',  
     'client.lua'
 }
 
 server_scripts {
-    'config.lua',  -- Load config.lua first
+    'config.lua',  
     'server.lua'
 }
 
